@@ -1,0 +1,257 @@
+*
+{
+  padding:0;
+  margin:0;
+}
+body
+{
+	background-color: #3CB371;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #9C27B0;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #3CB371;
+}
+
+.active {
+    background-color: #26C6DA;
+}
+
+#main
+{
+	width: 962px;
+	height: 542px;
+	margin: auto;
+}
+
+.mainpage
+{
+	width: 962px;
+	height: 542px;
+	margin: auto;
+
+}
+#main h1
+{
+ -webkit-animation: mymove 8s infinite;
+ animation: mymove 8s infinite;
+ text-align: center;
+ text-shadow: 0 0 10px black;
+ font-size: 40px;
+ color: #4FC3F7;
+ font-family: Verdana, geneva, sans-serif;
+}
+
+#main h2
+{
+ color:#EEEEEE;
+ text-shadow: 0 0 10px black;
+ font-family: Courier;
+ font-size:22px;
+ overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes mymove {
+    50% {margin-top: 40px;}
+}
+
+@keyframes btnmove {
+    50% {margin-left:3px;}
+    50% {margin-right: 3px;}
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+ #join
+ {
+ 	width: 120px;
+ 	height: 60px;
+ 	margin: auto;
+ 	
+ }
+
+ #join h3
+ {
+ 	padding:7px;
+ 	font-style: bold;
+ 	border-style: double;
+ 	border-color: white;
+ 	font-family: cursive;
+ 	color: white;
+ 	background-color: #AB47BC;
+ 	-webkit-animation: btnmove 4s infinite;
+ 	animation: btnmove 4s infinite;
+ }
+
+
+
+/* Login form CSS begins */
+
+
+
+
+#pannelhead
+{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-color: #3F51B5;
+}
+
+#pannelhead h1
+{
+  color: white;
+  font-family: Verdana;
+}
+
+.loginform
+{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #E3F2FD;
+  padding: 40px 120px;
+
+}
+
+.loginform input
+{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 35px;
+  padding:5px 10px;
+  border-radius: 10px;
+
+}
+
+.loginform input[type="submit"]
+{
+  border-color: #fff;
+  border-radius: 0;
+  height: 45px;
+  width: 130px;
+  margin-left: 110px;
+  color: #fff;
+  font-size: 25px;
+  font-family: verdana;
+  background: #3F51B5;
+  cursor: pointer;
+
+}
+
+.loginform input[type="submit"]:hover
+{
+  background: #fff;
+  color: #3F51B5;
+}
+
+.loginform a
+{
+  color: #C5CAE9;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* Register form  CSS begins here */
+
+
+
+
+.formreg
+{
+  width: 300px;
+  height: auto;
+  margin: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #E3F2FD;
+  padding: 40px 120px;
+
+}
+
+.formreg p
+{
+  color: #fff;
+  font-size: 20px;
+  font-family: verdana;
+}
+
+.formreg input
+{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 35px;
+  padding:5px 10px;
+  border-radius: 10px;
+
+}
+
+.formreg input[type="radio"]
+{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 35px;
+
+}
+
+.formreg input[type="submit"]
+{
+  border-color:#fff; 
+  border-radius: 0;
+  height: 45px;
+  width: 130px;
+  margin-left: 110px;
+  color: #fff;
+  font-size: 25px;
+  font-family: verdana;
+  background: #3F51B5;
+  cursor: pointer;
+
+}
+
+.formreg input[type="submit"]:hover
+{
+  background: #fff;
+  color: #3F51B5;
+}
+
+
+/*footer  */
